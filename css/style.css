@@ -1,0 +1,90 @@
+:root{
+    --progress-bar-color: rgb(85, 34, 85);
+}
+
+body
+{
+    background-image: url(../img/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.homepage .card .card-body .progress
+{
+    height: 20px;
+}
+
+/*Skills progress bar*/
+.homepage .card .card-body .progress .progress-bar.photoshop
+{
+    background-color: var(--progress-bar-color);
+    height: 100%;
+    width: 95%;
+}
+
+.homepage .card .card-body .progress .progress-bar.illustrator
+{
+    background-color: var(--progress-bar-color);
+    height: 100%;
+    width: 65%;
+}
+
+.homepage .card .card-body .progress .progress-bar.archicad
+{
+    background-color: var(--progress-bar-color);
+    height: 100%;
+    width: 80%;
+}
+
+.homepage .card .card-body .progress .progress-bar.artlantis
+{
+    background-color: var(--progress-bar-color);
+    height: 100%;
+    width: 75%;
+}
+
+.homepage .card .card-body .progress .progress-bar.corel-draw
+{
+    background-color: var(--progress-bar-color);
+    height: 100%;
+    width: 75%;
+}
+
+.homepage .card .card-body .progress .progress-bar.sketchup
+{
+    background-color: var(--progress-bar-color);
+    height: 100%;
+    width: 90%;
+}
+
+.homepage .card .card-body .progress .progress-bar.tile-creator
+{
+    background-color: var(--progress-bar-color);
+    height: 100%;
+    width: 98%;
+}
+/*Skills progress bar End*/
+
+main .homepage .education-container .card .card-body .diploma .fa-certificate
+{
+    color: tomato;
+}
+main .homepage .name-container h3
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .homepage .card
+{
+    background: rgb(140,212,218);
+    background: linear-gradient(90deg, rgba(140,212,218,1) 0%, rgba(84,169,194,0.07886904761904767) 0%, rgba(84,155,194,0.2861519607843137) 100%);
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+main .homepage .about-container .card .button-cv
+{
+    text-align: center;
+}
