@@ -94,7 +94,7 @@ main .homepage .card, main .homepage .card.presented
 {
     /* background: rgb(140,212,218);
     background: linear-gradient(90deg, rgba(140,212,218,1) 0%, rgba(84,169,194,0.07886904761904767) 0%, rgba(84,155,194,0.2861519607843137) 100%); */
-    background-color: rgba(235, 221, 236, 0.959);
+    background-color: rgba(238, 232, 238, 0.945);
 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
