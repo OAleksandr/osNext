@@ -4,10 +4,12 @@
 
 body
 {
-    background-image: url(../img/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+    background-image: url(../img/anolilona.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
+    background-size: 50%;
+    background-position: center;
 }
 
 .homepage .card .card-body .progress
@@ -66,25 +68,41 @@ body
 }
 /*Skills progress bar End*/
 
+main .homepage .card.presented
+{
+    background-image: url(../img/anolilona.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 30%;
+    /* background-color: rgba(80, 157, 187, 0.432); */
+}
+
 main .homepage .education-container .card .card-body .diploma .fa-certificate
 {
     color: tomato;
+}
+main .homepage .name-container img
+{
+    border-radius: 100%;
 }
 main .homepage .name-container h3
 {
     text-align: center;
     margin-top: 20px;
 }
-
-main .homepage .card
+main .homepage .card, main .homepage .card.presented
 {
-    background: rgb(140,212,218);
-    background: linear-gradient(90deg, rgba(140,212,218,1) 0%, rgba(84,169,194,0.07886904761904767) 0%, rgba(84,155,194,0.2861519607843137) 100%);
+    /* background: rgb(140,212,218);
+    background: linear-gradient(90deg, rgba(140,212,218,1) 0%, rgba(84,169,194,0.07886904761904767) 0%, rgba(84,155,194,0.2861519607843137) 100%); */
+    background-color: rgba(235, 221, 236, 0.959);
 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-
-main .homepage .about-container .card .button-cv
+main .homepage .about-container .card .card-body p
+{
+    text-align: center;
+}
+main .homepage .about-container .card .card-body .button-cv
 {
     text-align: center;
 }
