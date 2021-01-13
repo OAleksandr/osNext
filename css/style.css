@@ -4,12 +4,13 @@
 
 body
 {
-    background-image: url(../img/anolilona.png);
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+   
     background-attachment: fixed;
-    background-size: 50%;
-    background-position: center;
+    background-size: cover;
+    
+    scroll-behavior: smooth;
 }
 
 .homepage .card .card-body .progress
@@ -18,56 +19,59 @@ body
 }
 
 /*Skills progress bar*/
+.homepage .card .card-body .progress
+{
+    height: 16px !important;
+}
 .homepage .card .card-body .progress .progress-bar.photoshop
 {
     background-color: var(--progress-bar-color);
-    height: 100%;
+    /* height: 100%; */
     width: 95%;
 }
 
 .homepage .card .card-body .progress .progress-bar.illustrator
 {
     background-color: var(--progress-bar-color);
-    height: 100%;
+    /* height: 100%; */
     width: 65%;
 }
 
 .homepage .card .card-body .progress .progress-bar.archicad
 {
     background-color: var(--progress-bar-color);
-    height: 100%;
+    /* height: 100%; */
     width: 80%;
 }
 
 .homepage .card .card-body .progress .progress-bar.artlantis
 {
     background-color: var(--progress-bar-color);
-    height: 100%;
+    /* height: 100%; */
     width: 75%;
 }
 
 .homepage .card .card-body .progress .progress-bar.corel-draw
 {
     background-color: var(--progress-bar-color);
-    height: 100%;
+    /* height: 100%; */
     width: 75%;
 }
 
 .homepage .card .card-body .progress .progress-bar.sketchup
 {
     background-color: var(--progress-bar-color);
-    height: 100%;
+    /* height: 100%; */
     width: 90%;
 }
 
 .homepage .card .card-body .progress .progress-bar.tile-creator
 {
     background-color: var(--progress-bar-color);
-    height: 100%;
+    /* height: 100%; */
     width: 98%;
 }
 /*Skills progress bar End*/
-
 main .homepage .card.presented
 {
     background-image: url(../img/anolilona.png);
@@ -96,7 +100,9 @@ main .homepage .card, main .homepage .card.presented
     background: linear-gradient(90deg, rgba(140,212,218,1) 0%, rgba(84,169,194,0.07886904761904767) 0%, rgba(84,155,194,0.2861519607843137) 100%); */
     background-color: rgba(238, 232, 238, 0.945);
 
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 9px;
 }
 main .homepage .about-container .card .card-body p
 {
