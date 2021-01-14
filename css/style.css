@@ -4,7 +4,7 @@
 
 body
 {
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/bg.jpg); 
     background-repeat: no-repeat;
    
     background-attachment: fixed;
@@ -13,81 +13,96 @@ body
     scroll-behavior: smooth;
 }
 
-.homepage .card .card-body .progress
+main
 {
-    height: 20px;
+    background-image: url(../img/anolilona.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-attachment: fixed;
 }
-
+main .homepage .work-container a,
+main .homepage .education-container a 
+{
+    text-decoration: none;
+    color: black;
+    transition: transform .2s;
+}
+main .homepage .work-container a:hover,
+main .homepage .education-container a:hover
+{
+    transform: scale(1.1);
+} 
 /*Skills progress bar*/
 .homepage .card .card-body .progress
 {
-    height: 16px !important;
+    height: 16px;
 }
 .homepage .card .card-body .progress .progress-bar.photoshop
 {
     background-color: var(--progress-bar-color);
-    /* height: 100%; */
     width: 95%;
 }
 
 .homepage .card .card-body .progress .progress-bar.illustrator
 {
     background-color: var(--progress-bar-color);
-    /* height: 100%; */
     width: 65%;
 }
 
 .homepage .card .card-body .progress .progress-bar.archicad
 {
     background-color: var(--progress-bar-color);
-    /* height: 100%; */
     width: 80%;
 }
 
 .homepage .card .card-body .progress .progress-bar.artlantis
 {
     background-color: var(--progress-bar-color);
-    /* height: 100%; */
     width: 75%;
 }
 
 .homepage .card .card-body .progress .progress-bar.corel-draw
 {
     background-color: var(--progress-bar-color);
-    /* height: 100%; */
     width: 75%;
 }
 
 .homepage .card .card-body .progress .progress-bar.sketchup
 {
     background-color: var(--progress-bar-color);
-    /* height: 100%; */
     width: 90%;
 }
 
 .homepage .card .card-body .progress .progress-bar.tile-creator
 {
     background-color: var(--progress-bar-color);
-    /* height: 100%; */
     width: 98%;
 }
 /*Skills progress bar End*/
-main .homepage .card.presented
+/* main .homepage .card.presented
 {
     background-image: url(../img/anolilona.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 30%;
-    /* background-color: rgba(80, 157, 187, 0.432); */
-}
+} */
 
 main .homepage .education-container .card .card-body .diploma .fa-certificate
 {
     color: tomato;
 }
-main .homepage .name-container img
+main .homepage .name-container .main-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+main .homepage .name-container .main-img img
 {
     border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 85%;
+    margin-top: 15px;
 }
 main .homepage .name-container h3
 {
@@ -96,11 +111,8 @@ main .homepage .name-container h3
 }
 main .homepage .card, main .homepage .card.presented
 {
-    /* background: rgb(140,212,218);
-    background: linear-gradient(90deg, rgba(140,212,218,1) 0%, rgba(84,169,194,0.07886904761904767) 0%, rgba(84,155,194,0.2861519607843137) 100%); */
-    background-color: rgba(238, 232, 238, 0.945);
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 9px;
 }
