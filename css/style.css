@@ -4,7 +4,7 @@
 
 body
 {
-    background-image: url(../img/bg.jpg); 
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
    
     background-attachment: fixed;
@@ -26,6 +26,7 @@ main .homepage .education-container button
     text-decoration: none;
     color: black;
     transition: transform .2s;
+    width: 100%;
 }
 main .homepage .work-container button:hover,
 main .homepage .education-container button:hover
