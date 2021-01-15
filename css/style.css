@@ -24,7 +24,7 @@ main .homepage .work-container button,
 main .homepage .education-container button 
 {
     text-decoration: none;
-    color: black;
+    color: black !important;
     transition: transform .2s;
 }
 main .homepage .work-container button:hover,
