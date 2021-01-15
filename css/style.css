@@ -20,15 +20,15 @@ main
     background-size: 20%;
     background-attachment: fixed;
 }
-main .homepage .work-container a,
-main .homepage .education-container a 
+main .homepage .work-container button,
+main .homepage .education-container button 
 {
     text-decoration: none;
     color: black;
     transition: transform .2s;
 }
-main .homepage .work-container a:hover,
-main .homepage .education-container a:hover
+main .homepage .work-container button:hover,
+main .homepage .education-container button:hover
 {
     transform: scale(1.1);
 } 
