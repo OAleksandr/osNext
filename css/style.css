@@ -39,6 +39,11 @@ main .homepage .education-container button:hover
     {
         font-size: 14px;
     }
+
+    main .homepage .skills-container .languages h6 img
+    {
+        width: 12px;
+    }
 } 
 /*Skills progress bar*/
 .homepage .card .card-body .progress
@@ -86,7 +91,12 @@ main .homepage .education-container button:hover
     background-color: var(--progress-bar-color);
     width: 98%;
 }
+.homepage .card .card-body h6 img
+{
+    width: 8%;
+}
 /*Skills progress bar End*/
+
 /* main .homepage .card.presented
 {
     background-image: url(../img/anolilona.png);
@@ -94,7 +104,10 @@ main .homepage .education-container button:hover
     background-position: bottom;
     background-size: 30%;
 } */
-
+main .homepage .skills-container .languages h6 img
+{
+    width: 20px;
+}
 main .homepage .education-container .card .card-body .diploma .fa-certificate
 {
     color: tomato;
@@ -132,3 +145,22 @@ main .homepage .about-container .card .card-body .button-cv
 {
     text-align: center;
 }
+
+/* Accordion Arrows Animation */
+.fa-arrow-alt-circle-down
+{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.fa-arrow-alt-circle-down {
+    animation-name: fa-arrow-alt-circle-down;
+    animation-timing-function: ease;
+}
+@keyframes fa-arrow-alt-circle-down {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+}
+/* Accordion Arrows Animation End */
