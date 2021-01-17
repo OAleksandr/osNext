@@ -137,10 +137,7 @@ main .homepage .card, main .homepage .card.presented
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 9px;
 }
-main .homepage .about-container .card .card-body p
-{
-    text-align: center;
-}
+main .homepage .about-container .card .card-body p,
 main .homepage .about-container .card .card-body .button-cv
 {
     text-align: center;
@@ -152,6 +149,7 @@ main .homepage .about-container .card .card-body .button-cv
     animation-duration: 2s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
+    font-size: 18px;
 }
 
 .fa-arrow-alt-circle-down {
@@ -164,3 +162,7 @@ main .homepage .about-container .card .card-body .button-cv
     100% { transform: translateY(0); }
 }
 /* Accordion Arrows Animation End */
+.hidden
+{
+    display: none;
+}
