@@ -127,15 +127,15 @@ main .homepage .name-container .main-img
 } 
 main .homepage .name-container .main-img img
 {
-    border-radius: 100%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 85%;
-    margin-top: 15px;
+    /* border-radius: 100%; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    width: 100%;
+    margin-top: 1px;
 }
 main .homepage .name-container h3
 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 main .homepage .card, main .homepage .card.presented
 {
