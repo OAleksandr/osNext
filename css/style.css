@@ -19,14 +19,14 @@ main
     background-size: 20%;
     background-attachment: fixed;
 } */
-main .homepage .presented .name-container 
+/* main .homepage .presented .name-container 
 {
     background-image: url(../img/anolilona.png);
     background-repeat: no-repeat;
     background-size: 190px;
     
     background-position: center 300px;
-}
+} */
 main .homepage .work-container button,
 main .homepage .education-container button 
 {
@@ -51,15 +51,6 @@ main .homepage .education-container button:hover
     {
         width: 12px;
     }
-
-    main .homepage .presented .name-container 
-{
-    background-image: url(../img/anolilona.png);
-    background-repeat: no-repeat;
-    background-size: 170px;
-    background-attachment: initial;
-    background-position: center 270px;
-}
 } 
 /*Skills progress bar*/
 .homepage .card .card-body .progress
@@ -144,7 +135,7 @@ main .homepage .name-container .main-img img
 main .homepage .name-container h3
 {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 main .homepage .card, main .homepage .card.presented
 {
