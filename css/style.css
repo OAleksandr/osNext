@@ -166,7 +166,7 @@ main .homepage .about-container .card .card-body .button-cv
 }
 @keyframes fa-arrow-alt-circle-down {
     0%   { transform: translateY(0); }
-    50%  { transform: translateY(10px); }
+    50%  { transform: translateY(8px); }
     100% { transform: translateY(0); }
 }
 /* Accordion Arrows Animation End */
