@@ -38,6 +38,11 @@ main .homepage .education-container button:hover
     {
         width: 12px;
     }
+
+    main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide img
+    {
+        height: 200px;
+    }
 } 
 /*Skills progress bar*/
 .homepage .card .card-body .progress
