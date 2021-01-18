@@ -41,7 +41,7 @@ main .homepage .education-container button:hover
 
     main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide img
     {
-        height: 200px;
+        height: 230px !important;
     }
 } 
 /*Skills progress bar*/
