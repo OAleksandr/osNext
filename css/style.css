@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 :root{
     --progress-bar-color: rgb(85, 34, 85);
 }
@@ -10,23 +12,8 @@ body
     background-size: cover;
     
     scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
 }
-/* 
-main
-{
-    background-image: url(../img/anolilona.png);
-    background-repeat: no-repeat;
-    background-size: 20%;
-    background-attachment: fixed;
-} */
-/* main .homepage .presented .name-container 
-{
-    background-image: url(../img/anolilona.png);
-    background-repeat: no-repeat;
-    background-size: 190px;
-    
-    background-position: center 300px;
-} */
 main .homepage .work-container button,
 main .homepage .education-container button 
 {
@@ -104,13 +91,6 @@ main .homepage .education-container button:hover
 }
 /*Skills progress bar End*/
 
-/* main .homepage .card.presented
-{
-    background-image: url(../img/anolilona.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 30%;
-} */
 main .homepage .skills-container .languages h6 img
 {
     width: 20px;
@@ -137,7 +117,8 @@ main .homepage .name-container h3
     text-align: center;
     margin-top: 10px;
 }
-main .homepage .card, main .homepage .card.presented
+main .homepage .card, 
+main .homepage .card.presented
 {
     /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
     background: radial-gradient( circle 827px at 47.3% 48%,  rgba(255, 255, 255, 0.795) 0%, rgba(138, 193, 216, 0.815) 90% );
@@ -150,7 +131,10 @@ main .homepage .about-container .card .card-body .button-cv
 {
     text-align: center;
 }
-
+main .homepage .projects-container h4
+{
+    text-align: center;
+}
 /* Accordion Arrows Animation */
 .fa-arrow-alt-circle-down
 {
@@ -174,3 +158,34 @@ main .homepage .about-container .card .card-body .button-cv
 {
     display: none;
 }
+
+main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide img
+{
+    height: 500px;
+}
+
+.swiper-container 
+{
+    width: 100%;
+    height: 100%;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
