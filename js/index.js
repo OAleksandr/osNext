@@ -28,7 +28,7 @@ window.addEventListener('load', function()
             arrowDown.classList.remove("hidden");
         }
     });
-    
+    // **************************************************************
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 30,
@@ -41,6 +41,13 @@ window.addEventListener('load', function()
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+      });
+
+      // **********************************************************
+
+      baguetteBox.run('.swiper-wrapper', {
+        animation: 'fadeIn',
+        noScrollbars: true
       });
 
 

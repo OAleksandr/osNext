@@ -196,3 +196,11 @@ main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-sli
     align-items: center;
   }
   /* Swiper End */
+  main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide a
+  {
+    transition: transform .2s;
+  }
+  main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide a:hover
+  {
+    transform: scale(0.9);
+  }
