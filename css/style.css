@@ -6,7 +6,7 @@
 
 body
 {
-    background-image: url(../img/bg.jpg); 
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -204,3 +204,4 @@ main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-sli
   {
     transform: scale(0.9);
   }
+/* ----------------------------------------------------- */
