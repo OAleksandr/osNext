@@ -27,7 +27,7 @@ main .homepage .education-container button:hover
 {
     transform: scale(1.1);
 }
-@media only screen and (max-width:812px){
+@media only screen and (max-width:812px) {
     main .homepage .work-container h4,
     main .homepage .education-container h4 
     {
@@ -44,6 +44,16 @@ main .homepage .education-container button:hover
         height: 230px !important;
     }
 } 
+@media only screen and (max-width:1024px) {
+    main .homepage .skills-container .languages h6
+    {    
+        font-size: 12px;
+    }
+    main .homepage .skills-container h3.lng-head
+    {
+        font-size: 20px;
+    }
+}
 /*Skills progress bar*/
 .homepage .card .card-body .progress
 {
@@ -167,6 +177,7 @@ main .homepage .projects-container h4
 main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide img
 {
     height: 500px;
+    transform: scale(1.1);
 }
 
 .swiper-container {
@@ -202,6 +213,6 @@ main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-sli
   }
   main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide a:hover
   {
-    transform: scale(0.9);
+    transform: scale(1.3);
   }
 /* ----------------------------------------------------- */
