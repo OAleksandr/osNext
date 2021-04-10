@@ -110,9 +110,9 @@ main .homepage .skills-container .languages h6 img
 {
     width: 20px;
 }
-main .homepage .education-container .card .card-body .diploma .fa-certificate
+main .homepage .education-container .card .card-body .diploma img
 {
-    color: tomato;
+    width: 23px;
 }
 main .homepage .name-container .main-img
 {
