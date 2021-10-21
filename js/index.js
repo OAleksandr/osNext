@@ -29,7 +29,7 @@ window.addEventListener('load', function()
         }
     });
     // **************************************************************
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.swiper', {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,

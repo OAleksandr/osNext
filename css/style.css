@@ -6,10 +6,12 @@
 
 body
 {
-    background-image: url(../img/bg.jpg);
+    /* background-image: url(../img/bg.jpg); 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
+    background: rgb(248,210,222);
+background: linear-gradient(0deg, rgba(248,210,222,1) 0%, rgba(229,217,224,1) 32%, rgba(238,240,244,1) 56%, rgba(202,230,236,1) 100%);
     
     scroll-behavior: smooth;
     font-family: 'Raleway', sans-serif;
@@ -39,7 +41,7 @@ main .homepage .education-container button:hover
         width: 12px;
     }
 
-    main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide img
+    main .homepage .projects-container .swiper .swiper-wrapper .swiper-slide img
     {
         height: 230px !important;
     }
@@ -174,13 +176,13 @@ main .homepage .projects-container h4
     display: none;
 }
 /* Swiper */
-main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide img
+main .homepage .projects-container .swiper .swiper-wrapper .swiper-slide img
 {
     height: 500px;
     transform: scale(1.1);
 }
 
-.swiper-container {
+.swiper {
     width: 100%;
     height: 100%;
     margin-left: auto;
@@ -207,11 +209,11 @@ main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-sli
     align-items: center;
   }
   /* Swiper End */
-  main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide a
+  main .homepage .projects-container .swiper .swiper-wrapper .swiper-slide a
   {
     transition: transform .2s;
   }
-  main .homepage .projects-container .swiper-container .swiper-wrapper .swiper-slide a:hover
+  main .homepage .projects-container .swiper .swiper-wrapper .swiper-slide a:hover
   {
     transform: scale(1.3);
   }
